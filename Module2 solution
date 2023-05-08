@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>idea</title>
+</head>
+<style>
+div{
+  margin:0%;
+  position:relative;
+  box-sizing:border-box;
+  background-color:black;
+  border-radius:03%;
+  width:auto 0;
+  height=1%;
+  padding-top:5px;
+}
+.name{
+ font-family: 'Poppins', sans-serif;
+  color:white;
+  letter-spacing:1px;
+  font-style:impact;
+  font-size:20px;
+  margin-left:1%;
+  margin-top:-16%;
+}
+.card{
+  background-color:transparent;
+  color:white;
+  letter-spacing:2px;
+  margin-left:4px;
+  margin-bottom:3rem;
+}
+ .no{
+   background: transparent;
+   outline:none;
+   border:none;
+   color:silver;
+   font-size:160%;
+   font-style:inherit;
+   margin-left:16%;
+   width:80%;
+ }
+ .mon{
+   background-color:transparent;
+   color: white;
+   margin-left:2%;
+   margin-top:10%;
+   font-size:11px;
+   width:auto;
+ }
+ .date{
+   background-color:transparent;
+   margin-right:100%;
+   margin-left:2%;
+   margin-top:%;
+   outline:none; 
+   border:none;
+   color:silver;
+   width:auto 0;
+ }
+.yea{
+  width:auto 0;
+  background-color:transparent;
+   color: white;
+   margin-top:10%;
+   margin-left:7%;
+   font-size:11px;
+   margin-left:2%;
+}
+ .year{
+  background-color:transparent;
+   margin-right:100%;
+   margin-left:2%;
+   margin-top:%;
+   outline:none; 
+   border:none;
+   color:silver;
+   width:10%;
+  }
+  .cv{
+    width:auto 0;
+    font-family:'poppins';
+    margin-top:-11%;
+    margin-right:6%;
+    position:relative;
+    float:right;
+    color:white;
+    font-weight:5%;
+    font-size:14px;
+  }
+  .cvv{
+    float:right;
+    margin-right:2%;
+    margin-top:-7%;
+    outline:none;
+    border:none;
+    background: transparent;
+    width:10%;
+    color:silver;
+  }
+  img{
+    margin-left:57%;
+    margin-top:-5%;
+    background:;
+  }
+</style>
+<body>
+<section>
+  <div>
+  <img src="visa.png" alt="image" height="50%" width="50%">
+  <p class="name">payment details</p>
+  <label class="card">card no</label>
+  <input class="no" type="text" placeholder="1234 1234 1234 1234">
+  <label class="mon">EXP MON</label>
+  <input class="date" type="text" placeholder="mon">
+  <label class="yea">EXP YEAR</label>
+  <input class="year" type="text" placeholder="year">
+  <label class="cv">CVV</label>
+  <input class="cvv" type="number" placeholder="123">
+</div>
+</section>
+</body>
+</html>
